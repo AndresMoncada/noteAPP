@@ -1,0 +1,149 @@
+/*=======================*/
+/*create modal styles*/
+/*=======================*/
+
+.createNewNote__container__dark {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #0000008a;
+}
+
+.createNewNote__container {
+    position: relative;
+    border-radius:20px ;
+    z-index: 5;
+    border: 1px solid #000;
+    width: 500px;
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.createNewNote__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.createNewNote__inputs__container>label {
+    display: block;
+    font-size: 18px;
+    margin: 5px 0;
+    
+}
+
+.createNewNote__inputs__container>input {
+    border: 1px solid #808080;
+    width: 100%;
+    padding: 5px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.createNewNote__inputs__container textarea {
+    border: 1px solid #808080;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.createNewNote__buttons__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.createNewNote__buttons__container input {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .notes__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*Phase 2 categories*/
+
+.categories__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+
+.createNewCategory__container {
+    margin-top: 10px;
+    
+}
+
+.createNewCategory__input {
+    border: 1px solid #808080;
+    margin-right: 46px;
+    padding: 5px;
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.createNewCategory__button {
+    border: 1px solid #808080;
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+    width: 20%;
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(7, 199, 61) 0%, rgba(102,247,113,1) 100%);
+    color:whitesmoke;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgb(92, 83, 83);
+    box-shadow: 2px 2px 2px 0px rgba(65, 63, 63, 0.41);
+}
+
+.createNewNote_save{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(7, 199, 61) 0%, rgba(102,247,113,1) 100%);
+    color:whitesmoke;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0;
+    text-shadow: 1px 1px 2px rgb(92, 83, 83);
+    box-shadow: 2px 2px 2px 0px rgba(65, 63, 63, 0.41);
+}
+
+.createNewNote_cancel{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(199, 84, 7) 0%, rgb(255, 123, 118) 100%);
+    color:whitesmoke;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0;
+    text-shadow: 1px 1px 2px rgb(92, 83, 83);
+    box-shadow: 2px 2px 2px 0px rgba(65, 63, 63, 0.41);
+}

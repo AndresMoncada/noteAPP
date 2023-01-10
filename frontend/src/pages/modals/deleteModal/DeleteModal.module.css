@@ -1,0 +1,66 @@
+/*
+Delete Note Modal
+*/
+
+.delete__container__dark {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #0000008a;
+}
+
+.delete__container {
+    position: relative;
+    z-index: 5;
+    border: 1px solid #000;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border:0;
+    align-items: center;;
+    background-color: #fff;
+    padding: 35px 40px;
+}
+
+.delete__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.delete__buttons__container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.deleteNote_yes{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(7, 199, 61) 0%, rgba(102,247,113,1) 100%);
+    color:whitesmoke;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    text-shadow: 1px 1px 2px rgb(92, 83, 83);
+    box-shadow: 2px 2px 2px 0px rgba(65, 63, 63, 0.41);
+}
+
+.deleteNote_no{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgb(199, 84, 7) 0%, rgb(255, 123, 118) 100%);
+    color:whitesmoke;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0;
+    text-shadow: 1px 1px 2px rgb(92, 83, 83);
+    box-shadow: 2px 2px 2px 0px rgba(65, 63, 63, 0.41);
+}

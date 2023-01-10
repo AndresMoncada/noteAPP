@@ -1,0 +1,28 @@
+.principal {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.back {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.code {
+    border-right: 3px solid;
+    font-size: 55px;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+.message {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
