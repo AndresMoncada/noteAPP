@@ -21,3 +21,4 @@ Frontend:
     "sequelize": "^6.28.0"
 
 Sorry for the time, i did'nt remember that there is a time difference of 2 hours
+Im from Colombia:(
