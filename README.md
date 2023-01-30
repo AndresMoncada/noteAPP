@@ -6,6 +6,7 @@ deploy backend: i don't remember
 
   
 Frontend:
+
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
