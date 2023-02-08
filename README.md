@@ -1,6 +1,7 @@
 # GitHubAndresMoncada-Ensolvers-Challenge
 
-deploy frontend: vercel
+deploy frontend: vercel : https://note-app-six-plum.vercel.app/
+
 deploy backend: i don't remember
 
 
